@@ -1,0 +1,30 @@
+
+body{
+    background-color: rgb(59, 169, 216);
+    border: 20px;
+    border-color: rgb(137, 230, 199);
+}
+.tx{
+   margin : 10px solid red;
+    padding: 5px 0px 5px 5px;
+    background-color: yellow;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    
+      
+
+    
+}
+.ye{
+    background-color: brown;
+    padding: 1px 1px 1px 1px ;
+    text-align: center;
+    width: 50px;
+    height: 45px;
+
+
+}
+.no{
+
+}
