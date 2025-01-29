@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+     
+.elements{
+    display: flex;
+    border: 20px solid rgba(231, 190, 29, 0.93);
+    background-color: rgba(231, 190, 29, 0.93);  
+}
+p{
+    margin-left: 40px
+    
+}
+input{
+    margin-left:20px;
+    padding-right: 970px;
+    padding-top: 10px;
+    border: 2px solid rgba(231, 190, 29, 0.93);
+    border-radius: 10px;
+    
+}
+button{
+    margin-left: 20px;
+    border: 1px solid rgba(231, 190, 29, 0.93);
+    border-radius: 7px ;
+    background-color: gray;
+
+}
+.fr{
+    margin-top: 7px;
+}

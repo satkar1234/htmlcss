@@ -1,0 +1,26 @@
+div{
+    background-color: rgb(212, 212, 212);
+    width: 380px;
+    height:200px;
+    border:2px solid rgb(212, 212, 212,);
+    border-radius: 4px;
+
+}
+.tx{
+    padding: 2px 77.5px 125px 9px;
+    background-color: aqua;
+    text-align: center;
+    
+    
+}
+.ye{
+    background-color: blue;
+    padding: 0px 150px 40px 0px;
+   
+    height: 40px;
+    width: 60px;
+
+
+}
+    
+

@@ -1,0 +1,36 @@
+.box{
+    background-color: antiquewhite;
+    height: 180px;
+    width: 350px;
+  text-align: center;
+
+}
+
+.maintext{
+
+}
+
+ .decison{
+    display: flex;
+    text-align: center;
+  
+
+ }
+ .ya{
+    background-color: blue;
+    height: 60px;
+    width: 170px;
+    /* margin-top: -60px; */
+    text-align: center;
+
+
+ }
+ .na{background-color: brown;
+    height: 60px;
+    width: 180px;
+    /* margin-top: -60px; */
+    text-align: center;
+    justify-content: center;
+}
+
+ 

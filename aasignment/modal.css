@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.modalcontainer{
+    border:1px solid;
+    margin: 200px 20px 40px 40px;
+  text-align: center;
+}
+.yesnowrapper{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.yes{
+    flex-grow: 1;
+    background-color: aquamarine;
+    
+}
+.no{
+    flex-grow: 1;
+    background-color: red;
+}
+.text{
+    padding: 60px;
+}
