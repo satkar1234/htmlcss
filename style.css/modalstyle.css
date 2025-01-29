@@ -1,16 +1,15 @@
 
 body{
     background-color: rgb(59, 169, 216);
-    border: 20px;
-    border-color: rgb(137, 230, 199);
 }
 .tx{
-   margin : 10px solid red;
-    padding: 5px 0px 5px 5px;
     background-color: yellow;
-    width: 200px;
+    width: 350px;
     height: 80px;
     text-align: center;
+    padding-top:50px;
+    border:2px solid yellow;
+    border-radius: 4px;
     
       
 
@@ -18,13 +17,24 @@ body{
 }
 .ye{
     background-color: brown;
-    padding: 1px 1px 1px 1px ;
-    text-align: center;
-    width: 50px;
+    text-align:center;
+    width: 174px;
     height: 45px;
+    padding:14px 0px 0px 0px;
+    margin:-1px 0px 0px 0px;
 
 
 }
 .no{
+    background-color:blueviolet;
+    text-align:center;
+    width:180px;
+    height:45px;
+    padding:14px 0px 0px 0px;
+    margin: -62px 0px 0px 170.5px;
+    border:2px solid blueviolet;
+    border-radius: 4px;
+
+
 
 }

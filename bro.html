@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>yesno</title>
+        <link rel="stylesheet" href="bro.css">
+  
+        <style>
+            .modal-wrapper {
+                border: 1px solid;
+                margin: 200px 20px 40px 40px;
+                text-align: center;
+            }
+
+            .yes-no-wrapper {
+                display: flex;
+                justify-content: center;
+                /* text-align: center; */
+
+            }
+.yes {
+    /* text-align: center; */
+    flex-grow:1;
+    background-color: rgb(115, 176, 198);
+
+    /* height: 40px; */
+}
+
+.text{
+    padding: 60px;
+}
+
+.no{
+    flex-grow: 1;
+    border:1px solid;
+    background-color: red;
+
+}
+
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="modal-wrapper">
+            <div class="text">
+Are you sure want to delete
+            </div>
+
+            <!-- yes no  -->
+            <div class="yes-no-wrapper">
+                <div class="yes">
+<p> yes</p>
+                </div>
+                <div class="no">
+<p> No</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

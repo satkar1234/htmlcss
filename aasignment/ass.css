@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+}
+nav{
+    background-color: aqua;
+    display: flex;
+    height:90px;
+
+   
+
+    
+}
+.navv{
+    padding-left: 98px;
+    padding-top: 38px;
+}
+.log{
+    margin-left: 650px;
+    height: 40px;
+    width:80px ;
+    margin-top: 20px;
+    border: 2px solid rgb(184, 149, 149);
+    background-color: rgb(184, 149, 149);
+    border-radius: 13px;
+
+}
+img{
+    height: 300px;
+    width: 250px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+.kid{
+    border: 1px solid gray ;
+    margin: 6px;
+    padding: 8px;
+}
+footer{
+
+    background-color: grey;
+    height: 140px;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.butt{
+    background-color: aqua;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 100px;
+    justify-content: flex-end;
+
+}

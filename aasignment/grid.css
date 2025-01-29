@@ -1,0 +1,32 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 100px auto 100px;
+    height: 100vh;
+
+}
+.container >div{
+    border: 3px solid green;
+    padding: 20px;
+    margin: 4px;
+}
+.head{
+    grid-column-start:1 ;
+    grid-column-end: -1;
+    background-color: brown;
+}
+.menu{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: yellowgreen;
+}
+.body{
+    grid-column-start: 3;
+    grid-column-end: -1;
+    background-color: antiquewhite;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end:-1 ;
+    background-color: bisque;
+}
