@@ -41,9 +41,8 @@
 .div8{
     grid-column-start: 1;
     grid-column-end: -1;
-    grid-row-start: 5;
-    grid-row-end:
+    display:flex;
+    
+  
 }
-.div9{
-    gr
-}
+div
