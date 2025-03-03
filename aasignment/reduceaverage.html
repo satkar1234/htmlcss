@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <body>
+        <script>
+          const number=[1,2,3,4,5];
+          function averageNumbers(arr){
+            const sum=arr.reduce((acc,curr)=> acc+curr,0);
+            return sum/arr.length;
+          }
+          const average=averageNumbers(number);
+          console.log(average);
+
+        </script>
+    </body>
+    </head>
+</html>

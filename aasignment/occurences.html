@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <script>
+                const item=["apple","banana","apple","mango","banana","apple"]
+                function countOccurrences(arr){
+                    return arr.reduce((acc,item)=>{
+                        if(acc[item]){
+                            acc[item]++;
+                        }
+                        else{
+                            acc[item]=1;
+                        }
+                        return acc;
+
+                    },{})
+
+                }
+                const count=countOccurrences(item);
+                console.log(count);
+                    
+                
+            </script>
+        </body>
+    </head>
+</html>

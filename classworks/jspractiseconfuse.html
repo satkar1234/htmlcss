@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>satkar</title>
+     
+    </head>
+    <body>
+       
+        <div class="main-container">
+            <h3>to-do list</h3>
+           <input type="text" id="input-text"> 
+           <button onclick="addText()">submit</button>
+          <ol id="unchanged">unchanged
+
+
+          </ol>
+          <ol id="changed">changed
+
+          </ol>
+
+          
+
+        </div>
+        <script>
+            function addText (){
+                const newInput=document.getElementById("input-text");
+                const newValue=newInput.value;
+                const newLi=document.createElement("li");
+                const newBox=document.createElement("input");
+                newBox.type="checkbox";
+                newLi.innerHTML=newValue;
+                newLi.prepend(newBox);
+                const unChangedList=document.getElementById("unchanged");
+                unChangedList.append(newLi);
+                newBox.addEventListener("change",function movetochanged(event){
+                   if(newBox.target.checked){
+                    const changed=getElementById("changed");
+                    changed.append(newLi);
+                
+                
+
+                   }
+                   else{
+                    unChangedList.append(newBox.target.parentElement)
+                   }
+                 
+
+                })
+
+                // if(newBox.checked="true"){
+                // const  changedList=getElementById("changed");
+                // changedList.append(newLi)\
+                newInput.value="";
+            }
+            
+     
+             
+               
+
+
+                
+
+
+
+              
+               
+                
+
+                
+
+
+
+           
+            
+
+            
+
+        </script>
+    </body>
+</html>

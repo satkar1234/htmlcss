@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            satkar
+        </title>
+        <style>
+            .main-container{
+                border: 2px solid;
+            }
+      
+            
+
+            
+        </style>
+
+    </head>
+    <body>
+        <script>
+            function getData(){
+                const getList =document.getElementById("newinput");//targeting input area
+                const title=getList.value;// fecthing input value and storing it in title
+                const newElement=document.createElement("li") //creating new element li 
+                const checkbox=document.createElement("input")//creating checkbox
+                checkbox.type="checkbox";//
+                checkbox.addEventListener("change",(event) => {
+console.log(event.target.checked,"this is on change event");
+
+
+
+                })
+                pending.append(checkbox);//appending
+                newElement.innerHTML=title;// adding the input to li
+                pending.append(newElement)// appending it in 
+
+                console.log("title",title);
+                getList.value="";
+
+                
+
+
+                
+
+            }
+
+
+        </script>
+        
+        <div class="main-container">
+            <h3>TO Do list</h3>
+            <input type="text" id="newinput" value="hello"><br>
+
+        <button onclick="getData()">Login</button>
+        <h5>Pending Task</h5>
+        
+
+        <ul id="pending">
+            
+
+           
+            
+            
+        </ul>
+        <h5>Completed Task</h5>
+        <ul class="completed-task">
+            
+
+        </ul>
+    </div>
+    </body>
+</html>
